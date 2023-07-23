@@ -1,0 +1,21 @@
+body{
+  background-color: #131722;
+  color: #fff;
+  /* font-family: 'Courier New', Courier, monospace; */
+  letter-spacing: 2px;
+  /* font-family: 'Montserrat', sans-serif; */
+font-family: 'Montserrat Alternates', sans-serif;
+/* font-family: 'Tajawal', sans-serif; */
+}
+
+
+input{
+   background-color: #131722 !important;
+color: #fff !important;
+}
+
+
+input::placeholder{
+  color: #fff !important;
+
+}

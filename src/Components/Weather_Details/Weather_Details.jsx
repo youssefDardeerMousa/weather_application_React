@@ -9,7 +9,7 @@ export default function Weather_Details() {
     let {country}=useParams();
     console.log(country);
     const GetData=async ()=>{
-        let {data}=await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=05b947964ec24636801223206232502&q=${country}&days=3&aqi=yes&alerts=no`)
+        let {data}=await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=05b947964ec24636801223206232502&q=${country}&days=3&aqi=yes&alerts=yes`)
     console.log(data);
     setmydata(data)
     setloading(false)
